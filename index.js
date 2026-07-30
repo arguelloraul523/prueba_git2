@@ -19,4 +19,4 @@ app.use('/api/appointments', appointmentRoutes);
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Servidor en puerto ${PORT}`));
+app.listen(PORT, () => console.log(`Servidor en puerto ${PORT}`));Comentario agregado por el colaborador
